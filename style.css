@@ -75,3 +75,52 @@ html,body
     text-align: right;
 }
 
+#smallheadings
+{
+    margin-top: 120px;
+    padding-right: 50px;
+}
+
+#smallheadings h5
+{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin-top: .5vw;
+}
+
+#herofooter a
+{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#herofooter
+{
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#herofooter #iconset
+{
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    
+}
